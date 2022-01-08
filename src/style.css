@@ -1,0 +1,90 @@
+@import "/src/reset.css";
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  border: 1px solid black;
+  padding: 10px 50px;
+  display: inline-flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  z-index: 9999;
+}
+
+header h2 {
+  font-weight: 900;
+  font-size: 20px;
+  padding-right: 500px;
+}
+
+nav span {
+  padding-right: 20px;
+}
+
+.mainImg-area {
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  position: relative;
+}
+
+.img-main {
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.7;
+  z-index: 0;
+}
+
+.mainInfo {
+  z-index: 5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.img-title {
+  font-size: 60px;
+  padding-bottom: 30px;
+}
+
+.img-subtitle {
+  font-size: 36px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills {
+  width: 100%;
+  height: 100vh;
+  background-color: #28cdcd;
+}
+
+.archiving {
+  width: 100%;
+  height: 100vh;
+}
+
+.projects {
+  width: 100%;
+  height: 100vh;
+  background-color: yellow;
+}
